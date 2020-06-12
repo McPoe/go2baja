@@ -573,7 +573,7 @@ body:after {
       bottom: 0;
       right: 0;
       top: 0;
-      background: rgba(184, 178, 166, 0.7); }
+      background: rgba(184, 178, 166, 0.5); }
   .site-blocks-cover .player {
     position: absolute;
     bottom: -250px;
@@ -2151,4 +2151,57 @@ figure figcaption {
 p.texto-icons{
   text-transform: uppercase;
   font-size: 1em;
+}
+
+/* STYLE BTN CUPON/*/
+
+.btn-cupon{
+  margin-top: 1em;
+  border: solid 1px #d1a312;
+  color: #FFF;
+  background-color: #D1A311;
+  padding: 20px;
+  width: 60%;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .btn-cupon{
+    width: 70%;
+  }
+}
+
+.btn-cupon:hover{
+  border: solid 1px #D1A311;
+  color: #D1A311;
+  background-color: #FFFFFF;
+}
+
+
+
+/*OTROS*/
+
+#getcupon { position: fixed;
+            width: 200px;
+            height: 100px;
+            top: 65px;
+            right: 30px;
+            background-color: #D1A311;
+            display: block;
+            visibility: show;
+}
+
+#getcupon p{
+  color: #FFF;
+  padding: 0px 10px 10px;
+  margin-top: 10%;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  #getcupon {
+    display: none;
+    visibility: hidden;
+  }
 }
