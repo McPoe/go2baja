@@ -96,7 +96,7 @@ body:after {
     box-shadow: none !important; }
 
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5em 0 1em; }
   @media (min-width: 768px) {
     .site-section {
       padding: 3em 0; } }
@@ -594,11 +594,11 @@ body:after {
         font-size: 2rem; } }
   .site-blocks-cover p {
     color: white;
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 1.5;
     font-weight: 300; }
   .site-blocks-cover .desc {
-    font-size: 1.4rem;
+    font-size: 1.4em;
     font-weight: 300; }
     .site-blocks-cover .desc a {
       color: white;
@@ -2103,13 +2103,11 @@ figure figcaption {
 /* STYLE BTN QUOTE/*/
 
 .btn-quote-index{
-  border: solid 1px #FFF;
-  color: #FFF;
-  padding: 20px;
+  border: solid 4px #132ceb;
+  color: #132ceb;
+  padding: 15px;
   width: 40%;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  background-color: #132ceb40;
+  font-size: 1.2em;
 }
 
 @media (max-width: 768px) {
@@ -2119,23 +2117,22 @@ figure figcaption {
 }
 
 .btn-quote-index:hover{
-  border: solid 1px #132ceb;
-  color: #132ceb;
-  background-color: #FFFFFF40;
+  border: solid 3px #FFF;
+  color: #FFF;
+  background-color: #132ceb95;
 }
 
 /* STYLE BTN QUOTE/*/
 
 .btn-quote{
   margin-top: 1em;
-  border: solid 1px #132ceb;
+  border: solid 3px #132ceb;
   color: #132ceb;
   background-color: #FFFFFF;
-  padding: 20px;
-  width: 60%;
-  font-size: 1rem;
+  padding: 15px;
+  width: 20em;
+  font-size: 1.2rem;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
@@ -2145,9 +2142,8 @@ figure figcaption {
 }
 
 .btn-quote:hover{
-  border: solid 1px #132ceb;
   color: #FFF;
-  background-color: #132ceb80;
+  background-color: #132ceb;
 }
 
 p.texto-icons{
